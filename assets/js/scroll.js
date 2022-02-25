@@ -6,7 +6,7 @@ function scr(){
     if (scrollTop > 260){
         $("header").css({"height" : "60px"});
     }else{
-        $("#site-header").css({"height" : 320 - scrollTop +"px"});
+        $("header").css({"height" : 320 - scrollTop +"px"});
     }
 };
 
