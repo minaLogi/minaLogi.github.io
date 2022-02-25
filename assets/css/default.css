@@ -115,7 +115,7 @@ header{
     background-image: url("../images/Neumorphism.png");
     background-size: 150%;
     background-position: center;
-    filter: blur(10px);
+    filter: none;
     border-radius: 6px;
     z-index: 1;
 }
