@@ -1,0 +1,15 @@
+body{
+    margin: 0px;
+    padding: 4px;
+    background-color: #aaaaac;
+}
+
+header{
+    background-image: url("./assets/images/Neumorphism.png");
+    border-radius: 6px;
+    box-shadow: 10px 10px 30px #00000088 -10px -10px 30px #ffffff;
+}
+
+#headerContent{
+    margin-bottom: 10px;
+}
