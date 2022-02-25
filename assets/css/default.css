@@ -23,8 +23,9 @@ body{
 header{
     margin: 8px;
     background-image: url("../images/Neumorphism.png");
-    height: 100px;
+    height: 450px;
     width: 100%;
+    background-position: center;
 }
 
 .NeumorphismBox{
@@ -35,4 +36,8 @@ header{
 
 #headerContent{
     margin-bottom: 10px;
+}
+
+#mainPage{
+    margin: 10px;
 }
