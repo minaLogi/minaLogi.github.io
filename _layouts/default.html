@@ -18,8 +18,13 @@
                 <h3 style="line-height: 100%;">Blog mina</h3>
             </div>
         </header>
-        <div id="mainPage" class="NeumorphismBox">
-            {{ content }}
+        <div id="mainPage">
+            <div id="mainContent" class="NeumorphismBox">
+                {{ content }}
+            </div>
+            <div id="sideContent" class="NeumorphismBox" style="height: 700px;">
+                <img src="{{ ./favicon.ico | relative_url }}" style="width: 200px; border-radius: 50%;">
+            </div>
         </div>
     </body>
 </html>
