@@ -26,7 +26,6 @@ header{
     margin: 8px;
     background-image: url("../images/Neumorphism.png");
     height: 320px;
-    width: 100%;
     background-position: center;
 }
 
@@ -42,4 +41,5 @@ header{
 
 #mainPage{
     margin: 10px;
+    margin-top: 330px;
 }
