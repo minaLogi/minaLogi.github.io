@@ -23,11 +23,12 @@ body{
 }
 
 header{
-    position: fixed center top;
+    top: 16px;
+    position: fixed center;
     background-image: url("../images/Neumorphism.png");
     height: 320px;
     width: 95vw;
-    margin-top: 16px;
+    margin: 16px auto;
     background-position: center;
 }
 
