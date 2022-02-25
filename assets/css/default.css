@@ -1,28 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
 h1{
     font-family: 'Noto Sans JP', sans-serif;
-    color: White;
+    color: Black;
     font-size: 24pt;
     line-height: 200%;
-    border-bottom: solid 1px white;
+    border-bottom: solid 1px Black;
 }
-h2{font-family: 'Noto Sans JP', sans-serif;color: White; font-size: 20pt;}
-h3{font-family: 'Noto Sans JP', sans-serif;color: White;}
-h4{font-family: 'Noto Sans JP', sans-serif;color: White;}
-h5{font-family: 'Noto Sans JP', sans-serif;color: White;}
-h6{font-family: 'Noto Sans JP', sans-serif;color: White;}
-p{font-family: sans-serif;color: White;font-weight: normal; line-height: 200%}
-a{font-family: sans-serif;color: White; line-height: 200%;}
+h2{font-family: 'Noto Sans JP', sans-serif;color: Black; font-size: 20pt;}
+h3{font-family: 'Noto Sans JP', sans-serif;color: Black;}
+h4{font-family: 'Noto Sans JP', sans-serif;color: Black;}
+h5{font-family: 'Noto Sans JP', sans-serif;color: Black;}
+h6{font-family: 'Noto Sans JP', sans-serif;color: Black;}
+p{font-family: sans-serif;color: Black;font-weight: normal; line-height: 200%}
+a{font-family: sans-serif;color: Black; line-height: 200%;}
 
 body{
     margin: 0px;
     padding: 4px;
-    background-color: #aaaaac;
+    background-color: #ddddde;
 }
 
 header{
     margin: 8px;
-    background-image: url("./assets/images/Neumorphism.png");
+    background-image: url("../images/Neumorphism.png");
     border-radius: 6px;
     box-shadow: 10px 10px 30px #00000088 -10px -10px 30px #ffffff;
 }
