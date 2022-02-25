@@ -16,16 +16,22 @@ a{font-family: sans-serif;color: Black; line-height: 200%;}
 
 body{
     margin: 0px;
-    padding: 4px;
-    background-color: #ddddde;
+    padding: 0px;
+    background-color: #e9e9f4;
 }
 
 header{
     margin: 8px;
     background-image: url("../images/Neumorphism.png");
+    height: 100px;
+    width: 100%;
+}
+
+.NeumorphismBox{
     border-radius: 6px;
     box-shadow: 10px 10px 30px #00000088 -10px -10px 30px #ffffff;
 }
+
 
 #headerContent{
     margin-bottom: 10px;
