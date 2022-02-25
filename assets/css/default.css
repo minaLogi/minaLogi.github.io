@@ -14,6 +14,64 @@ h6{font-family: 'Noto Sans JP', sans-serif;color: Black; font-size: 10pt;}
 p{font-family: sans-serif;color: Black;font-weight: normal; line-height: 200%}
 a{font-family: sans-serif;color: Black; line-height: 200%;}
 
+@media screen and (min-width: 1280px) {
+    /*大画面*/
+    #mainPage{
+        margin: 10%;
+        margin-top: 340px;
+        display: flex;
+    }
+    #mainContent{
+        padding: 16px;
+        width: 70%;
+        margin-right: 20px;
+    }
+    #sideContent{
+        padding: 16px;
+        width: 20%;
+        height: 72px;
+        display: flex;
+        align-items:center;
+    }
+}
+
+@media screen and (max-width: 1279px) and (min-width: 840px) {
+    /*中画面*/
+    #mainPage{
+        margin-top: 340px;
+        display: flex;
+    }
+    #mainContent{
+        padding: 16px;
+        width: 75%;
+        margin-right: 20px;
+    }
+    #sideContent{
+        padding: 16px;
+        width: 20%;
+        height: 72px;
+        display: flex;
+        align-items:center;
+    }    
+}
+
+@media screen and (max-width: 839px) {
+    /*小画面*/
+    #mainPage{
+        margin-top: 340px;
+        display: grid;
+    }
+    #mainContent{
+        padding: 16px;
+    }
+    #sideContent{
+        padding: 16px;
+        height: 72px;
+        display: flex;
+        align-items:center;
+    }
+}
+
 body{
     margin: 0px;
     padding: 16px;
@@ -38,7 +96,7 @@ header{
 
 .NeumorphismBox{
     border-radius: 6px;
-    box-shadow: 10px 10px 30px #00000088, -10px -10px 30px #ffffffff;
+    box-shadow: 10px 10px 20px #00000044, -10px -10px 30px #ffffffff;
 }
 
 
@@ -48,10 +106,6 @@ header{
     z-index: 2;
 }
 
-#mainPage{
-    margin-top: 340px;
-    padding: 16px;
-}
 #headerBackground{
     position: absolute;
     top: 0;
@@ -65,3 +119,4 @@ header{
     border-radius: 6px;
     z-index: 1;
 }
+
