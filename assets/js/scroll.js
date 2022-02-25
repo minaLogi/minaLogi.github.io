@@ -9,3 +9,5 @@ function scr(){
         $("#site-header").css({"height" : 320 - scrollTop +"px"});
     }
 };
+
+window.onscroll = scr;
