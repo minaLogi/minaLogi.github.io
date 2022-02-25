@@ -2,15 +2,15 @@
 h1{
     font-family: 'Noto Sans JP', sans-serif;
     color: Black;
-    font-size: 24pt;
+    font-size: 18pt;
     line-height: 200%;
     border-bottom: solid 1px Black;
 }
-h2{font-family: 'Noto Sans JP', sans-serif;color: Black; font-size: 20pt;}
-h3{font-family: 'Noto Sans JP', sans-serif;color: Black;}
-h4{font-family: 'Noto Sans JP', sans-serif;color: Black;}
-h5{font-family: 'Noto Sans JP', sans-serif;color: Black;}
-h6{font-family: 'Noto Sans JP', sans-serif;color: Black;}
+h2{font-family: 'Noto Sans JP', sans-serif;color: Black; font-size: 14pt; font-weight: bold;}
+h3{font-family: 'Noto Sans JP', sans-serif;color: Black; font-size: 14pt; font-weight: normal;}
+h4{font-family: 'Noto Sans JP', sans-serif;color: Black; font-size: 12pt; font-weight: bold;}
+h5{font-family: 'Noto Sans JP', sans-serif;color: Black; font-size: 12pt; font-weight: normal;}
+h6{font-family: 'Noto Sans JP', sans-serif;color: Black; font-size: 10pt;}
 p{font-family: sans-serif;color: Black;font-weight: normal; line-height: 200%}
 a{font-family: sans-serif;color: Black; line-height: 200%;}
 
@@ -18,32 +18,50 @@ body{
     margin: 0px;
     padding: 16px;
     background-color: #e9e9f4;
-    width: 100%;
+    width: auto;
     height:5000px;
 }
 
 header{
     top: 16px;
     position: fixed;
-    background-image: url("../images/Neumorphism.png");
     height: 320px;
     margin: 0 auto;
-    left: 10px;
-    right: 10px;
+    left: 16px;
+    right: 16px;
+    background-color: #e9e9f422;
     background-position: center;
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: flex-end;
 }
 
 .NeumorphismBox{
     border-radius: 6px;
-    box-shadow: 10px 10px 30px #000000 -10px -10px 30px #ffffff;
+    box-shadow: 10px 10px 30px #00000088, -10px -10px 30px #ffffffff;
 }
 
 
 #headerContent{
-    margin-bottom: 10px;
+    position: relative;
+    margin-left: 16px;
+    z-index: 2;
 }
 
 #mainPage{
-    margin: 10px;
-    margin-top: 330px;
+    margin-top: 340px;
+    padding: 16px;
+}
+#headerBackground{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/Neumorphism.png");
+    background-size: 150%;
+    background-position: center;
+    filter: blur(10px);
+    border-radius: 6px;
+    z-index: 1;
 }
