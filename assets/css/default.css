@@ -69,6 +69,7 @@ a{font-family: sans-serif;color: Black; line-height: 200%;}
         height: 72px;
         display: flex;
         align-items:center;
+        margin-top: 20px;
     }
 }
 
