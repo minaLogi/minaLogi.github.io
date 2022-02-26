@@ -91,6 +91,7 @@ header{
     background-color: #e9e9f422;
     background-position: center;
     backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
     display: flex;
     align-items: flex-end;
 }
