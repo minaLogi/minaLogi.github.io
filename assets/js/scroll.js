@@ -8,7 +8,7 @@ function scr(){
         $("#headerBackground").css({"filter" : "blur(13px)"});
     }else{
         $("header").css({"height" : 320 - scrollTop +"px"});
-        $("#headerBackground").css({"filter" : "blur("+(scrollTop/20)+"px)"});
+        $("#headerBackground").css({"filter" : "blur("+Math.abs(scrollTop/20)+"px)"});
     }
 };
 

@@ -25,6 +25,7 @@ a{font-family: sans-serif;color: Black; line-height: 200%;}
         padding: 16px;
         width: 70%;
         margin-right: 20px;
+        min-height: 720px;
     }
     #sideContent{
         padding: 16px;
@@ -35,7 +36,7 @@ a{font-family: sans-serif;color: Black; line-height: 200%;}
     }
 }
 
-@media screen and (max-width: 1279px) and (min-width: 840px) {
+@media screen and (max-width: 1279px) and (min-width: 1024px) {
     /*中画面*/
     #mainPage{
         margin-top: 340px;
@@ -45,6 +46,7 @@ a{font-family: sans-serif;color: Black; line-height: 200%;}
         padding: 16px;
         width: 75%;
         margin-right: 20px;
+        min-height: 720px;
     }
     #sideContent{
         padding: 16px;
@@ -55,14 +57,36 @@ a{font-family: sans-serif;color: Black; line-height: 200%;}
     }    
 }
 
-@media screen and (max-width: 839px) {
+@media screen and (min-width: 640px) and (max-width: 1023px) {
     /*小画面*/
+    #mainPage{
+        margin-top: 340px;
+        display: flex;
+    }
+    #mainContent{
+        padding: 16px;
+        width: 60%;
+        margin-right: 20px;
+        min-height: 720px;
+    }
+    #sideContent{
+        padding: 16px;
+        width: 40%;
+        height: 72px;
+        display: flex;
+        align-items:center;
+    }    
+}
+
+@media screen and (max-width: 639px) {
+    /*スマホ画面*/
     #mainPage{
         margin-top: 340px;
         display: grid;
     }
     #mainContent{
         padding: 16px;
+        min-height: 720px;
     }
     #sideContent{
         padding: 16px;
@@ -94,6 +118,10 @@ header{
     -webkit-backdrop-filter: blur(4px);
     display: flex;
     align-items: flex-end;
+}
+
+img{
+    border-radius: 4px;
 }
 
 .NeumorphismBox{
