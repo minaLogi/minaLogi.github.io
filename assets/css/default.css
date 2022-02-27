@@ -65,13 +65,13 @@ a{font-family: sans-serif;color: Black; line-height: 200%;}
     }
     #mainContent{
         padding: 16px;
-        width: 60%;
+        width: 70%;
         margin-right: 20px;
         min-height: 720px;
     }
     #sideContent{
         padding: 16px;
-        width: 40%;
+        width: 250px;
         height: 72px;
         display: flex;
         align-items:center;
