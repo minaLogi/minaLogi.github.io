@@ -132,7 +132,11 @@ img{
 
 #headerContent{
     position: relative;
-    margin-left: 16px;
+    left: 16px;
+    right: 16px;
+    width: 98%;
+    width: -webkit-calc(100% - 32px);
+    width: calc(100% - 32px);
     z-index: 2;
 }
 
@@ -143,10 +147,75 @@ img{
     width: 100%;
     height: 100%;
     background-image: url("../images/Neumorphism.png");
-    background-size: 150%;
+    background-size: cover;
     background-position: center;
     filter: none;
     border-radius: 6px;
     z-index: 1;
 }
 
+.MenuButton{
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display:inline-block;
+    width: 100px;
+    height: auto;
+    font-family: "Noto Sans JP";
+    font-size: 10pt;
+    line-height: 120%;
+}
+
+.MenuButton::before{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0px;
+    width:100px;
+    height:2px;
+    background: #ff0088;
+    display: block;
+    -webkit-transform-origin: center top;
+    -ms-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transform: scale(0,1);
+    -ms-transform: scale(0,1);
+    transform: scale(0,1);
+    -webkit-transition: transform 0.4s cubic-bezier(0.6,0.04,0.98,0.34);
+    transition: transform 0.4s cubic-bezier(0.6,0.04,0.98,0.34);
+}
+
+.MenuButton:hover::before{
+    -webkit-transform-origin: center top;
+    -ms-transform-origin: center top;
+    transform-origin: center top;
+    -webkit-transform: scale(1,1);
+    -ms-transform: scale(1,1);
+    transform: scale(1,1);
+    -webkit-transition: transform 0.4s cubic-bezier(0.08,0.82,0.17,1);
+    transition: transform 0.4s cubic-bezier(0.08,0.82,0.17,1);
+}
+#Menu{
+    display: block;
+}
+ul {
+    overflow:hidden;
+    list-style:none;
+    margin: 0 auto;
+    z-index: 20;
+    position: absolute;
+    bottom: 10px;
+    right: 2px;
+    height:40px;
+    padding:2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 6px;
+    backdrop-filter: blur(10px);
+    background-color: #f8f8ff77;
+}
+    
+ul li {
+    display: inline-block;
+    padding: 8px 0px 0px 0px;
+}
