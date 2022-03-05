@@ -36,6 +36,21 @@ a{font-family: sans-serif;color: Black; line-height: 200%;}
     }
     #Menu{
         display: block;
+        overflow:hidden;
+        list-style:none;
+        margin: 0 auto;
+        z-index: 20;
+        position: absolute;
+        bottom: 8px;
+        right: 0px;
+        height:40px;
+        padding:2px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 6px;
+        backdrop-filter: blur(10px);
+        background-color: #f8f8ff77;
+    
     }    
 }
 
@@ -60,6 +75,21 @@ a{font-family: sans-serif;color: Black; line-height: 200%;}
     }
     #Menu{
         display: block;
+        overflow:hidden;
+        list-style:none;
+        margin: 0 auto;
+        z-index: 20;
+        position: absolute;
+        bottom: 8px;
+        right: 0px;
+        height:40px;
+        padding:2px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 6px;
+        backdrop-filter: blur(10px);
+        background-color: #f8f8ff77;
+    
     }    
 }
 
@@ -84,6 +114,21 @@ a{font-family: sans-serif;color: Black; line-height: 200%;}
     }
     #Menu{
         display: none;
+        overflow:hidden;
+        list-style:none;
+        margin: 0 auto;
+        z-index: 20;
+        position: absolute;
+        bottom: 8px;
+        right: 0px;
+        height:40px;
+        padding:2px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 6px;
+        backdrop-filter: blur(10px);
+        background-color: #f8f8ff77;
+    
     }    
 }
 
@@ -106,6 +151,21 @@ a{font-family: sans-serif;color: Black; line-height: 200%;}
     }
     #Menu{
         display: none;
+        overflow:hidden;
+        list-style:none;
+        margin: 0 auto;
+        z-index: 20;
+        position: absolute;
+        bottom: 8px;
+        right: 0px;
+        height:40px;
+        padding:2px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 6px;
+        backdrop-filter: blur(10px);
+        background-color: #f8f8ff77;
+    
     }
 }
 
@@ -176,6 +236,7 @@ img{
     font-family: "Noto Sans JP";
     font-size: 10pt;
     line-height: 120%;
+    padding: 8px 0px 0px 0px;
 }
 
 .MenuButton::before{
@@ -197,7 +258,7 @@ img{
     transition: transform 0.4s cubic-bezier(0.6,0.04,0.98,0.34);
 }
 
-.MenuButton:hover::before{
+.MenuButton:hover::before , .active::before{
     -webkit-transform-origin: center top;
     -ms-transform-origin: center top;
     transform-origin: center top;
@@ -206,25 +267,4 @@ img{
     transform: scale(1,1);
     -webkit-transition: transform 0.4s cubic-bezier(0.08,0.82,0.17,1);
     transition: transform 0.4s cubic-bezier(0.08,0.82,0.17,1);
-}
-ul {
-    overflow:hidden;
-    list-style:none;
-    margin: 0 auto;
-    z-index: 20;
-    position: absolute;
-    bottom: 8px;
-    right: 0px;
-    height:40px;
-    padding:2px;
-    padding-left: 8px;
-    padding-right: 8px;
-    border-radius: 6px;
-    backdrop-filter: blur(10px);
-    background-color: #f8f8ff77;
-}
-    
-ul li {
-    display: inline-block;
-    padding: 8px 0px 0px 0px;
 }
