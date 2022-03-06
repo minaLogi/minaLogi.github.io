@@ -18,19 +18,19 @@
                 <h3 style="line-height: 100%;">Blog mina</h3>
                 <ul id="Menu">
                     <li class="MenuContent">
-                        <a href="#" class="MenuButton" id="Home">Home</a>
+                        <a href="{{ # | relative_url }}" class="MenuButton" id="Home">Home</a>
                     </li>
                     <li class="MenuContent">
-                        <a href="About" class="MenuButton" id="About">About</a>
+                        <a href="{{ About | relative_url }}" class="MenuButton" id="About">About</a>
                     </li>
                     <li class="MenuContent">
-                        <a href="Extensions" class="MenuButton" id="Extensions">Extensions</a>
+                        <a href="{{ Extensions | relative_url }}" class="MenuButton" id="Extensions">Extensions</a>
                     </li>
                     <li class="MenuContent">
-                        <a href="Blog" class="MenuButton" id="Blog">Blog</a>
+                        <a href="{{ Blog | relative_url }}" class="MenuButton" id="Blog">Blog</a>
                     </li>
                     <li class="MenuContent">
-                        <a href="Contact" class="MenuButton" id="Contact">Contact</a>
+                        <a href="{{ Contact | relative_url }}" class="MenuButton" id="Contact">Contact</a>
                     </li>
                 </ul>
             </div>

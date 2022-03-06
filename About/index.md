@@ -1,4 +1,5 @@
-# minaについて　<img src="{{ '../assets/images/s-iconBitmap.png' | relative_url }}" style="width: 100px; height: 100px; border-radius: 50%;">
+# minaについて
+<img src="{{ '../assets/images/s-iconBitmap.png' | relative_url }}" style="width: 100px; height: 100px; border-radius: 50%;">
 
 ## 自己紹介
 
