@@ -7,4 +7,4 @@
 
 ## お友達
 
-[いふるきゅう]("https://if-himazin2.hatenadiary.com")くん
+[いふるきゅう](https://if-himazin2.hatenadiary.com)くん
