@@ -1,3 +1,7 @@
-# まだ何もないようです・・・
+# Contact to mina
 
-ページは工事中です。
+[Twitter](https://twitter.com/_Cxt73)
+/
+[Instagram](https://instagram.com)
+/
+[Discord](https://discord.gg/U5dCRfCCj9)

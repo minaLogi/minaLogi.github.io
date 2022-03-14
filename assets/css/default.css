@@ -200,12 +200,6 @@ img{
     border-radius: 4px;
 }
 
-.NeumorphismBox{
-    border-radius: 6px;
-    box-shadow: 10px 10px 20px #00000044, -10px -10px 30px #ffffffff;
-}
-
-
 #headerContent{
     position: relative;
     left: 16px;
