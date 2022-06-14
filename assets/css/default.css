@@ -265,6 +265,7 @@ header{
 
 img{
     border-radius: 4px;
+    max-width: 100%;
 }
 
 #headerContent{
@@ -289,6 +290,7 @@ img{
     filter: none;
     border-radius: 6px;
     z-index: 1;
+    clip-path: 100% round 6px;
 }
 
 .MenuButton{
