@@ -354,3 +354,19 @@ img{
     display: inline-block;
     margin: 10px;
 }
+#MenuDropDown{
+    overflow:hidden;
+    list-style:none;
+    margin: 0 auto;
+    z-index: 20;
+    bottom: 8px;
+    margin-left: -72px;
+    height: auto;
+    padding:2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 6px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: #f8f8ff77;
+}
