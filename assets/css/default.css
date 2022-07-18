@@ -6,12 +6,12 @@ h1{
     line-height: 200%;
     border-bottom: solid 1px Black;
 }
-h2{font-family: 'Noto Sans JP', sans-serif;color: Black; font-size: 16pt; font-weight: bold;}
+h2{font-family: 'Noto Sans JP', sans-serif;color: Black; font-size: 16pt; font-weight: bolder;}
 h3{font-family: 'Noto Sans JP', sans-serif;color: Black; font-size: 16pt; font-weight: normal;}
-h4{font-family: 'Noto Sans JP', sans-serif;color: Black; font-size: 12pt; font-weight: bold;}
-h5{font-family: 'Noto Sans JP', sans-serif;color: Black; font-size: 12pt; font-weight: normal;}
+h4{font-family: 'Noto Sans JP', sans-serif;color: Black; font-size: 12pt; font-weight: bolder;}
+h5{font-family: 'Noto Sans JP', sans-serif;color: Black; font-size: 12pt; font-weight: bold;}
 h6{font-family: 'Noto Sans JP', sans-serif;color: Black; font-size: 10pt;}
-p{font-family: sans-serif;color: Black;font-weight: normal; line-height: 200%}
+p{font-family: sans-serif;color: Black;font-weight: normal; line-height: 200%; margin-left: 10px}
 a{font-family: sans-serif;color: Black; line-height: 200%;}
 
 @media screen and (min-width: 1280px) {
