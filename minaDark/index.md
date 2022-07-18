@@ -6,17 +6,18 @@
 
 ## 概要
 patch.aulとDarkenWindow.aulを組み合わせてエディターの見た目を変えるパッケージ。
-![スクショ](65.png)
+![スクショ](20220718-light.png)![スクショ](20220718-dark.png)
 
 ## 導入方法
-①テキストエディタ(メモ帳など)を使用して，patch.aul.json(partipal).txtを開きます。
+① テキストエディタ(メモ帳など)を使用して，patch.aul.json(partial).txtを開きます。
 
-②AviUtlフォルダもしくはPluginsフォルダにあるpatch.aul.jsonも同様にテキストエディタで開いてください。
+② AviUtlフォルダもしくはPluginsフォルダにあるpatch.aul.jsonも同様にテキストエディタで開いてください。
 
-③①で開いた```patch.aul.json(partipal).txt```の内容をすべてコピーし，②で開いたpatch.aul.jsonの6行目あたりにある```"layer" : {```から30行目あたりにある```}```までを選択し，そのままクリップボードからペーストしてください。
+③ ①で開いた```patch.aul.json(partial).txt```の内容をすべてコピーし，②で開いたpatch.aul.jsonの6行目あたりにある```"layer" : {```から30行目あたりにある```}```までを選択し，そのままクリップボードからペーストしてください。
 
 通常であれば上書きされます。上書き保存して２つのエディタを閉じてください。
-④あとは簡単です。パッケージ内にあるminaDarkフォルダ，minaDark.xmlを```(AviUtlのフォルダ)\(Plugins\)DarkenWindow\Skin```に配置します。
+
+④ あとは簡単です。パッケージ内にあるminaDarkフォルダ，minaDark.xmlを```(AviUtlのフォルダ)\(Plugins\)DarkenWindow\Skin```に配置します。
 
 ## 注意事項
 ・付属のreadme.txtは読んでください。
@@ -27,8 +28,22 @@ patch.aulとDarkenWindow.aulを組み合わせてエディターの見た目を�
 
 以下のリンクからDLできます。
 
-最新版:[minaDark - DarkenWindow6.5.x~.zip](minaDark%20-%20DarkenWindow6.5.x~.zip)
+#### minaDark
 
-#### 古いバージョンはこちら
+最新版:[minaDark - DarkenWindow6.5.3~.zip](minaDark%20-%20DarkenWindow6.5.3~.zip)
+
+#### minaLight
+
+最新版:[minaLight - DarkenWindow6.5.3~.zip](minaLight%20-%20DarkenWindow6.5.3~.zip)
+
+## 古いバージョンはこちら
+
+#### minaDark
+
+[minaDark - DarkenWindow6.5.x~.zip](minaDark%20-%20DarkenWindow6.5.x~.zip)
 
 [minaDark - DarkenWindow6.x.x.zip](../Blog/minaDark%20-%20DarkenWindow6.x.x.zip)
+
+#### minaLight
+
+minaLightの過去バージョンはまだありません。
