@@ -30,15 +30,17 @@ patch.aulとDarkenWindow.aulを組み合わせてエディターの見た目を�
 
 #### minaDark
 
-最新版:[minaDark - DarkenWindow6.5.3~.zip](minaDark%20-%20DarkenWindow6.5.3~.zip)
+最新版:[minaDark - DarkenWindow6.5.3~v2.zip](minaDark%20-%20DarkenWindow6.5.3~v2.zip)
 
 #### minaLight
 
-最新版:[minaLight - DarkenWindow6.5.3~.zip](minaLight%20-%20DarkenWindow6.5.3~.zip)
+最新版:[minaLight - DarkenWindow6.5.3~v2.zip](minaLight%20-%20DarkenWindow6.5.3~v2.zip)
 
 ## 古いバージョンはこちら
 
 #### minaDark
+
+[minaDark - DarkenWindow6.5.3~.zip](minaDark%20-%20DarkenWindow6.5.3~.zip)
 
 [minaDark - DarkenWindow6.5.x~.zip](minaDark%20-%20DarkenWindow6.5.x~.zip)
 
@@ -46,4 +48,4 @@ patch.aulとDarkenWindow.aulを組み合わせてエディターの見た目を�
 
 #### minaLight
 
-minaLightの過去バージョンはまだありません。
+[minaLight - DarkenWindow6.5.3~.zip](minaLight%20-%20DarkenWindow6.5.3~.zip)
