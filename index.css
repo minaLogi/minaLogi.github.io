@@ -1,7 +1,6 @@
 
 body {
     background: black;
-    height: 300vh;
 }
 
 header {
@@ -75,12 +74,20 @@ header {
         border-color: black;
         display: flex;
         flex-direction: row;
+        @media (max-width: 640px) {
+            flex-direction: column;
+            align-items: center;
+        }
         >div{
             display: flex;
             flex-direction: column;
             justify-content: center;
             height: 100%;
             width: auto;
+
+            @media (max-width: 640px) {
+                align-items: center;
+            }
             img{
                 border-radius: 9999999px;
                 width: 8rem;
@@ -110,6 +117,10 @@ header {
             }
             &:last-child{
                 margin-right: 2rem;
+                @media (max-width: 640px) {
+                    margin-left: 2rem;
+                    margin-bottom: 2rem;
+                }
             }
         }
         
