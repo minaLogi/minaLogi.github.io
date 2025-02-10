@@ -15,7 +15,7 @@ header {
     animation-timeline: scroll(block);
     animation-range: cover 80% cover 100%;
     img{
-        width: 12rem;
+        width: 6rem;
     }
 }
 
@@ -92,6 +92,9 @@ header {
                 border-radius: 9999999px;
                 width: 8rem;
                 margin: 2rem;
+                @media (max-width: 640px) {
+                    margin: 1rem;
+                }
             }
             h1, p {
                 font-family: "Courier Prime", monospace;
@@ -118,8 +121,9 @@ header {
             &:last-child{
                 margin-right: 2rem;
                 @media (max-width: 640px) {
-                    margin-left: 2rem;
-                    margin-bottom: 2rem;
+                    margin-right: 1rem;
+                    margin-left: 1rem;
+                    margin-bottom: 1rem;
                 }
             }
         }
